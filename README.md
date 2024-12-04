@@ -61,19 +61,37 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
-
+```
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:S.Dharshini
+ RegisterNumber: 24901197
+```
+```
+module exp1(a,b,f1,f2,f3,f4,f5,f6,f7);
+input a,b;
+output f1,f2,f3,f4,f5,f6,f7;
+assign f1=a&b;
+assign f2=a|b;
+assign f3=~a;
+assign f4=~f1;
+assign f5=~f2;
+assign f6=a^b;
+assign f7=~(a^b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+**R![WhatsApp Image 2024-12-04 at 08 53 06_89787870](https://github.com/user-attachments/assets/61dc18f0-934b-4bbb-b0dc-4f9a081c83e2)
+TL realization Output:** 
+![WhatsApp Image 2024-12-04 at 08 53 07_fe86d965](https://github.com/user-attachments/assets/c16cce14-15d2-4598-9591-50f7053b5dd9)
 
 **RTL**
+![Screenshot 2024-10-25 095016](https://github.com/user-attachments/assets/0af994a3-e324-4ac3-84a8-56874eb2a214)
 
 **Result:**
-
+Thus the basic logic gates are studied and the truth tables are verified 
 
